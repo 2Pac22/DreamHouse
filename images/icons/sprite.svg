@@ -113,4 +113,8 @@
   <symbol id="icon-arrow-top" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
     <path d="M11 9.92857L11 1M11 1L2.07143 1M11 1L1 11" stroke-width="1.5" stroke-linejoin="round" />
   </symbol>
+
+  <symbol id="icon-lines" viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1 1H13M3 4H11M5 7H9" stroke-linecap="round" stroke-linejoin="round" />
+  </symbol>
 </svg>

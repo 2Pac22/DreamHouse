@@ -74,7 +74,7 @@
 								</div>
 							</div>
 							<div class="hero-second">
-								<div>
+								<div class="hero-buttons">
 									<button class="hero-button" title="Previos Slide" type="button">
 										<svg class="hero-arrow">
 											<use href="/images/icons/sprite.svg#icon-leftArrow"></use>
@@ -92,6 +92,25 @@
 									<p class="hero-block__text">
 										Model house with large panoramic window and fireplace
 									</p>
+
+									<div class="top-slider" style="display: none">
+										<div class="top-buttons">
+											<button
+												class="hero-button top-button__prev"
+												title="Previos Slide"
+												type="button"
+											>
+												<svg class="hero-arrow">
+													<use href="/images/icons/sprite.svg#icon-leftArrow"></use>
+												</svg>
+											</button>
+											<button class="hero-button top-button__next" title="Next Slide" type="button">
+												<svg class="hero-arrow">
+													<use href="/images/icons/sprite.svg#icon-rightArrow"></use>
+												</svg>
+											</button>
+										</div>
+									</div>
 
 									<div class="hero-table">
 										<div class="hero-field">
@@ -274,7 +293,7 @@
 								</div>
 								<div
 									class="bestseller"
-									style="background: url(./images/bestsellers-1.png) center no-repeat"
+									style="background: url(./images/bestsellers-2.png) center no-repeat"
 								>
 									<h2 class="bestseller-title">Sunny Retreat</h2>
 									<div class="bestseller-wrapper">
@@ -311,7 +330,7 @@
 								</div>
 								<div
 									class="bestseller"
-									style="background: url(./images/bestsellers-1.png) center no-repeat"
+									style="background: url(./images/bestsellers-3.png) center no-repeat"
 								>
 									<h2 class="bestseller-title">Forest Oasis</h2>
 									<div class="bestseller-wrapper">
@@ -348,7 +367,7 @@
 								</div>
 								<div
 									class="bestseller"
-									style="background: url(./images/bestsellers-1.png) center no-repeat"
+									style="background: url(./images/bestsellers-4.png) center no-repeat"
 								>
 									<h2 class="bestseller-title">Lakeside Serenity</h2>
 									<div class="bestseller-wrapper">
@@ -390,8 +409,10 @@
 				<section class="section-work">
 					<div class="container">
 						<div class="work-wrapper">
+							<h2 class="title mob-title" style="display: none">How We Work</h2>
+
 							<div class="work-left">
-								<h2 class="title">How We Work</h2>
+								<h2 class="title work-left__title">How We Work</h2>
 
 								<div class="work-video">
 									<button class="work-video__play">
@@ -452,9 +473,17 @@
 							<img src="./images/dreams.png" alt="" class="dreams-image" />
 
 							<div class="dreams-bg"></div>
-							<div>
-								<h2 class="dreams-title">Start fulfilling your dreams with us</h2>
-								<p class="dreams-text">Flexible approach to each client</p>
+							<div class="dreams-wrapper">
+								<div>
+									<h2 class="dreams-title">Start fulfilling your dreams with us</h2>
+									<p class="dreams-text">Flexible approach to each client</p>
+								</div>
+
+								<a href="#" class="dreams-viewmore mob-viewmore" style="display: none">
+									<svg class="dreams-icon">
+										<use href="/images/icons/sprite.svg#icon-viewMore-linearGradient"></use>
+									</svg>
+								</a>
 							</div>
 							<a href="#" class="dreams-viewmore">
 								<svg class="dreams-icon">
@@ -466,7 +495,14 @@
 				</section>
 				<section class="section-articles">
 					<div class="container">
-						<h2 class="title">Articles and Tips</h2>
+						<div class="articles-top">
+							<h2 class="title">Articles and Tips</h2>
+							<button class="articles-top__button" style="display: none">
+								<svg class="articles-top__icon">
+									<use href="/images/icons/sprite.svg#icon-lines"></use>
+								</svg>
+							</button>
+						</div>
 						<p class="text articles-text">
 							Here you will find a wealth of useful articles, tips, and ideas to help you
 							create the home of your dreams. Our experts share their knowledge and experience
@@ -528,7 +564,7 @@
 								<div class="article">
 									<div
 										class="article-block"
-										style="background: url(./images/article1.png) center no-repeat"
+										style="background: url(./images/article2.png) center no-repeat"
 									>
 										<h2 class="article-block__title">
 											Eco-Friendly Materials for Home Construction
@@ -558,7 +594,7 @@
 								<div class="article">
 									<div
 										class="article-block"
-										style="background: url(./images/article1.png) center no-repeat"
+										style="background: url(./images/article3.png) center no-repeat"
 									>
 										<h2 class="article-block__title">Ideas for Setting Up an Outdoor Kitchen</h2>
 
@@ -586,7 +622,7 @@
 								<div class="article">
 									<div
 										class="article-block"
-										style="background: url(./images/article1.png) center no-repeat"
+										style="background: url(./images/article4.png) center no-repeat"
 									>
 										<h2 class="article-block__title">Trends in Country Home Design 2024</h2>
 
@@ -612,6 +648,8 @@
 								</div>
 							</div>
 						</div>
+
+						<button class="articles-readmore" style="display: none">Read more</button>
 					</div>
 				</section>
 				<section class="section-customers">
@@ -633,6 +671,18 @@
 						</div>
 
 						<div class="customers-container">
+							<div class="customers-controls mob-customers" style="display: none">
+								<button class="customers-button mob-customers__prev">
+									<svg class="customers-icon">
+										<use href="/images/icons/sprite.svg#icon-leftArrow"></use>
+									</svg>
+								</button>
+								<button class="customers-button mob-customers__next">
+									<svg class="customers-icon">
+										<use href="/images/icons/sprite.svg#icon-rightArrow"></use>
+									</svg>
+								</button>
+							</div>
 							<div class="customers">
 								<div class="customers-item">
 									<div class="customers-item__wrap">
